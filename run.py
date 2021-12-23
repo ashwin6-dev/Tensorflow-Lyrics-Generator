@@ -23,5 +23,5 @@ model = tf.keras.models.load_model("save")
 
 while True:
     print ("============================")
-    print (gen_text(model, input(""), 500))
+    print (gen_text(model, input("Enter seed phrase: "), 500))
     print ("============================")

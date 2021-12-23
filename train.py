@@ -39,7 +39,7 @@ def build_model():
 
 def train_model(model, x, y):
     print ("Training...")
-    model.fit(x, y, epochs=20)
+    model.fit(x, y, epochs=30)
     model.save("save")
 
 def prep_dataset(file):
