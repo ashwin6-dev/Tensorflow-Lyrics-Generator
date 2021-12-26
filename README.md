@@ -78,4 +78,4 @@ python train.py
 ```
 
 
-The model obviously does not produce a whole set of lyrics that make a whole lot of sense, but it manages to string together some short phrases. This could be improved by generating at word level instead or using technologies like GPT.
+The model obviously does not produce a whole set of lyrics that make a whole lot of sense, but it manages to string together some short phrases. This could be improved by generating at word level instead, having a much larger dataset or even using technologies like GPT.
